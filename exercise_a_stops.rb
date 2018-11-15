@@ -12,11 +12,18 @@ p stop_number
 # 5. Remove `"Livingston"` from the array using its name
 stops.delete("Livingston")
 # 6. Delete `"Cumbernauld"` from the array by index
+#index = stops.index("Cumbernauld")
 stops.delete_at(2)
 # 7. How many stops there are in the array?
+#stops.size
+#stops.count
 number_of_stops = stops.count
 p number_of_stops
 # 8. How many ways can we return `"Falkirk High"` from the array?
+# stops[-5]
+# stops.at[2]
+# index = stops.index("Falkirk High")
+# stops.fetch(index)
 p stops[2]
 # 9. Reverse the positions of the stops in the array
 p stops.reverse
